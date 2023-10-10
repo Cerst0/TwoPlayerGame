@@ -1,0 +1,74 @@
+{
+    "name": "DebugAction",
+    "maps": [
+        {
+            "name": "DefaultMap",
+            "id": "cce52c17-8ece-479f-a6df-83322f179675",
+            "actions": [
+                {
+                    "name": "ReloadScene",
+                    "type": "Button",
+                    "id": "87e34ed2-5813-4294-ab26-96b3219ee75b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Log",
+                    "type": "Button",
+                    "id": "daceb439-5434-4a2e-afcd-f0855b1d82b8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "FPS",
+                    "type": "Button",
+                    "id": "b49b50b3-e171-4d18-9c2d-0c7533bc75c2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "4fc6615b-45ec-49f1-b874-23a62047cc15",
+                    "path": "<Keyboard>/f1",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ReloadScene",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fe1d09ef-5e09-47a6-8ad9-310ee8bc748b",
+                    "path": "<Keyboard>/f2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Log",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7878aaed-5901-415c-853e-b49b33358670",
+                    "path": "<Keyboard>/f3",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "FPS",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

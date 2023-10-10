@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Shootable
+  - Status
+  - Notification
+  - InputManager
+  - MainButton
+  - PlayerBlue
+  - GoalBlue
+  - PlayerRed
+  - Wall
+  - Floor
+  - Ball
+  - Checkpoint
+  - Brain
+  - Powerup
+  - Goal
+  - Viking
+  - PlayerInstance
+  - NetworkManager
+  - powerUpPsRed
+  - powerUpPsBlue
+  - IDA0
+  - IDA1
+  - UnlocalPlayer
+  - PlayerLayout
+  - IDA2
+  - IDA3
+  - Player0
+  - Player1
+  - Player2
+  - Player3
+  - Canvas
+  - SelfDisconnect
+  - PowerUpStrength
+  - Level
+  - InputPlayer0
+  - InputPlayer1
+  - GrandStand
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Viking
+  - Water
+  - UI
+  - Ball
+  - Wall
+  - Lighting
+  - Ground
+  - Postprocessing
+  - Bomb
+  - Floor
+  - Player0
+  - Player1
+  - Player2
+  - Player3
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Fire
+    uniqueID: 3804908061
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0

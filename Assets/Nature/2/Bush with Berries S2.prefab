@@ -1,0 +1,221 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3494335492593799038
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5625430402791167091}
+  - component: {fileID: 4741429733185337920}
+  - component: {fileID: 6878758571438025384}
+  - component: {fileID: 3862133757120839463}
+  m_Layer: 0
+  m_Name: Bush with Berries S2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5625430402791167091
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3494335492593799038}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1219570562757851185}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &4741429733185337920
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3494335492593799038}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!205 &6878758571438025384
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3494335492593799038}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0.0026174784, y: 0.064822435, z: 0.00014156103}
+  m_Size: 1.891358
+  m_FadeMode: 1
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.2255833
+    fadeTransitionWidth: 0.2
+    renderers:
+    - renderer: {fileID: 5420078355975784104}
+    - renderer: {fileID: 7425432314196733863}
+    - renderer: {fileID: 5305482019742734712}
+    - renderer: {fileID: 7948349614702531341}
+    - renderer: {fileID: 9207232767211426458}
+    - renderer: {fileID: 4916977130575004000}
+    - renderer: {fileID: 4545011388301450347}
+  - screenRelativeHeight: 0.11969289
+    fadeTransitionWidth: 0.2
+    renderers:
+    - renderer: {fileID: 5420078355975784104}
+    - renderer: {fileID: 7948349614702531341}
+    - renderer: {fileID: 4545011388301450347}
+  - screenRelativeHeight: 0.056563154
+    fadeTransitionWidth: 0.1
+    renderers:
+    - renderer: {fileID: 5420078355975784104}
+  m_Enabled: 1
+--- !u!114 &3862133757120839463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3494335492593799038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dce198916441c484794b651d9300cb5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isTree: 0
+  defaultScale: 1.891358
+--- !u!1001 &4755144711312774674
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5625430402791167091}
+    m_Modifications:
+    - target: {fileID: 5841558067679096355, guid: 5c06080b16fc0fd45ae55f493109daa8,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5841558067679096355, guid: 5c06080b16fc0fd45ae55f493109daa8,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5841558067679096355, guid: 5c06080b16fc0fd45ae55f493109daa8,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5841558067679096355, guid: 5c06080b16fc0fd45ae55f493109daa8,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5841558067679096355, guid: 5c06080b16fc0fd45ae55f493109daa8,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5841558067679096355, guid: 5c06080b16fc0fd45ae55f493109daa8,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5841558067679096355, guid: 5c06080b16fc0fd45ae55f493109daa8,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5841558067679096355, guid: 5c06080b16fc0fd45ae55f493109daa8,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5841558067679096355, guid: 5c06080b16fc0fd45ae55f493109daa8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5841558067679096355, guid: 5c06080b16fc0fd45ae55f493109daa8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5841558067679096355, guid: 5c06080b16fc0fd45ae55f493109daa8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6510712681583096985, guid: 5c06080b16fc0fd45ae55f493109daa8,
+        type: 3}
+      propertyPath: m_Name
+      value: Bush with Berries
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2553368163639517491, guid: 5c06080b16fc0fd45ae55f493109daa8, type: 3}
+    - {fileID: 2793777324723882461, guid: 5c06080b16fc0fd45ae55f493109daa8, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 5c06080b16fc0fd45ae55f493109daa8, type: 3}
+--- !u!4 &1219570562757851185 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5841558067679096355, guid: 5c06080b16fc0fd45ae55f493109daa8,
+    type: 3}
+  m_PrefabInstance: {fileID: 4755144711312774674}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &4545011388301450347 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 9146447099165936249, guid: 5c06080b16fc0fd45ae55f493109daa8,
+    type: 3}
+  m_PrefabInstance: {fileID: 4755144711312774674}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &4916977130575004000 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 414672348957153138, guid: 5c06080b16fc0fd45ae55f493109daa8,
+    type: 3}
+  m_PrefabInstance: {fileID: 4755144711312774674}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &5305482019742734712 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 602762317081137002, guid: 5c06080b16fc0fd45ae55f493109daa8,
+    type: 3}
+  m_PrefabInstance: {fileID: 4755144711312774674}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &5420078355975784104 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 777528888402661562, guid: 5c06080b16fc0fd45ae55f493109daa8,
+    type: 3}
+  m_PrefabInstance: {fileID: 4755144711312774674}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &7425432314196733863 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 2806241414647069109, guid: 5c06080b16fc0fd45ae55f493109daa8,
+    type: 3}
+  m_PrefabInstance: {fileID: 4755144711312774674}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &7948349614702531341 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 3437265999380153631, guid: 5c06080b16fc0fd45ae55f493109daa8,
+    type: 3}
+  m_PrefabInstance: {fileID: 4755144711312774674}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &9207232767211426458 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 4484181705365210248, guid: 5c06080b16fc0fd45ae55f493109daa8,
+    type: 3}
+  m_PrefabInstance: {fileID: 4755144711312774674}
+  m_PrefabAsset: {fileID: 0}
