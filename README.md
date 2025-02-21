@@ -5,5 +5,5 @@
 <li>Singleplayer</li>
 <li>2 Player couch-coop</li>
 <li>2-4 Player lan party</li>
-<li>2-4 Player online multiplayer (coming soon)</li>
+<li>2-4 Player online multiplayer</li>
 </ul>
